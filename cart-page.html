@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Organic & Freesh products" />
+    <meta
+      name="keywords"
+      content="products, vegetables,food market, greens, healthy, organic food"
+    />
+    <meta name="author" content="bl3" />
+    <meta name="theme-color" content="#e8e8e2" />
+    <title>Organic Food</title>
+    <!-- favicon+manifest -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/js_94_TasteMaestro-s/assets/apple-touch-icon-80daa6a9.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAABVRJREFUWEetV2tQVGUYft6zu1xcFuUmaCZiOmvklV2yspvW1MQfzSEytUwsJoml0kGbwlx10dQ0IpWJBM3EqdS8jWaO2ahhOrLowOBlUrwkWiBeWlAWzp63OQtLu+xV2+/P+fE97/s85z3ve77nIwS4Zht1saIKL0hMzzEwkoBEgKM6wukmCBdZwklS0q9Wq/RzidF8PZDU5A+UvSjlYSUJeUxIB0PjD9+5bwF4q0KlWlY49+hpXzFeBWQbkyOUyh4LGMgGEBYgcTcYWwm0ulllMZbNPWvxlMOjgJmL9FolYTOAYfdH7BZVwyJnrDKaz3TfcROQuzBFx0R7QNQ7SOSdaaiBJFta0SdVZue8LgJyjLohpBQOAhxk8k5K5gYR9HTxvMqzDhFdAuYs1Wrutmsqglj2rhcNUYVDIShw19oMAqpF8c6YNcZTzfb5caByC/QrmfFBMMuuDu+FIUmP4YlRL+PrLbPQam3pGFpgZVF+5ewuAYbFo5MhiVUAhd67AIJSoYJGHYXYqH7oHZ2IPnEPoV/CECTEJkGlDMPF+hqsKn8HDHakb7WxlLJmXtVpewUMJt06gN4MhDxEGYb+fZPxYJ9kO1FCTBKiIuMRHhYJIs9Tvf/39fjpcIlLegLWFeVXZlKWURcbosAFIorwJSA0RI2xqa/h8VETENEjOhCtdgwzo6g8C5ev1rrGECwh7TyQDEtSp8DGG31ljI8ZgGkTFkN+elrMEm7e/guNt/5ET3Uc4mL6QyEo7dCmW/X4dO0kSJLNLZSJp1DOIv1aIszwJiC6Z1/kTC5GT02cG+SfliYcr9mNa411GJyow3DtswgPdf1bHzj6LXYfKvaWvowMBfpKMHSeEAIJyMooxOBEvct2W3srDh7fhKPVuzDu0SkYPWK8vRG7L5skYnnZVDTeuOy5ckAVGUx6+dSK8YQYOugpTJ+41GXr+s0r2LBzHkTRimkTliA+JtHr1zt1vgKlW+fIneAN00QGk84GkOAJkTlxGR4Z9GTX1rXG8yjZ/D7U4VHIyvgckWqPujubT8LqTdm4UF/to71Y8iqASMD87J3QqDs63tLShKKNWbDZROS+XoJemnifk1B77jDW/fih8+x7wNsFeP4EzgLkUfpm+0eoPfcb3kr/DNqk0T7JrW13ULhhBhpuXPI3rk2UY9KZCZTiCTltfAGGa8fidN0RlG7JQ+qwNLz60sf+kmLHgS9wqPJ7vzgQzHIFSgFkekInPjAU705ajeLvDKhv+ANzZpQjKjLBZ+KTZ/ajfNcCSOw+990DmVFK7xXoJktM5d6ypg5NQ2XtXvuBMvF5+/nhs+s37MhHu2j1//YyQkFTSTabbSqq8+X35L9aXuZGxEX39zzPLOFY9S5s/6UwcHLAYhV5oP30yDXpyxiY7k22fKS+/cpKt225OS9fO4V9FaU4e+GYn453+wDrv8w3T7cLkJ2vgoQqb+bzjfEmjNCOw5ET29BqbYYgKHDj9lXUXanG39frILEUWMm7UGxVqFSjZMf8nyEx6VcwMKt7ph5hkcifuU0+1rD4q3Q03711j2TucDdDYq9Chw2vYGC4cwiB0C9Bi94xA2Cu3fu/yQHUtKgsYxw23cVByHZcAT5EQXfEHboZ1ABResbZnrtZmJkLU3QKQbGHguyMmbnBxpxW7MuWO+rbYc/ph2A5ZNkJtzMynO24g8vr1SxzqVYT0aZZwMTZ92dW7RStANbYxDvzHTa8exP5vZx2OuY8ZqT7841dyQkWYmwRWVouO19fnetXgCNYNq+hocKLLPJYEjASjAHO13MGLgnACSI+oGzHvhUBXs//BYaT+GEXPOJCAAAAAElFTkSuQmCC"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAiNJREFUOE+Nk11Ik3EUxn9n7SsriYxJmbXCpcHKcE4vwlh2U0RS0E3EKMItQsa6z0DQQRcixIr8KIPsIrooClSi8mIQCcMMAoMFsbooA0mUqNzW+4/33RzbEvRcvee85zznf855HqHEOiKeBhMSREkrKKfxW0kSk5rQUIO3rk69LSyRZSfY5SmzmU03QLsIYioFzvpKA9PwUkYLD3ZN/dIjBoBebDfLuILDKxcWRwVifzLquA5iAIR6vEOg2lcrXmcyU+tsJvE5TuZveijaGQ+KMbMiXvrsMns51dv2UVnhxLFlJ44KJ1UOF/OL3+m95zfG0QSvhCKN/SguLXe3Wuy0HQnTdOAEekfdFn/OYbNuwGZdz6vJ+4zF+rPpwoCEur0JRLmyvnDh9HXcrhaU0piaeU4mk6ZuTzObN1WiUPQO+5md+5TrJx8l1NOYAix6pKa6gctnb5JK/+bhWITm+jZqnU351SSScQYehQtXlS4C8DWd46Svg5Fn1zhYd5T9e335ZE1pRB8E+fJtphTAkwAxRthV5ebYoXbevHvK+VORoqNMTI4wGrtdfCilj1CyxPKNWwmc6WO7oyaf/Hr6MU9e9hl7KTJ9iaVn3L2jHn9bN/MLX/mxMEv8/ahx9/8td8YckQZBBfRvd00LFoud6Q8vVuGV3Il2xgN5KlvNMi5rpLKCWKqQyst6WKOY7i5ltCtFYip8a17OmrQiOTkjSWRlOf8DNu7SdPhJ1ygAAAAASUVORK5CYII="
+    />
+    <!-- <link rel="manifest" href="/site.webmanifest" /> -->
+    <!-- favicon+manifest -->
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- og-information -->
+    <meta content="website" property="og:type" />
+    <meta content="Fres & Organic Food" property="og:title" />
+    <meta
+      content="Buy fresh vegetables and fruits wich was growing with love
+    100% organic and healthy food for your family"
+      property="og:description"
+    />
+    <meta
+      content="https://raw.githubusercontent.com/Serhieie/bl3/main/public/favicons/og-img.jpg"
+      property="og:image"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="345" />
+    <script type="module" crossorigin src="/js_94_TasteMaestro-s/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/js_94_TasteMaestro-s/assets/vendor-f728e3bf.js">
+    <link rel="modulepreload" crossorigin href="/js_94_TasteMaestro-s/assets/sprite-583d2dbc.js">
+    <link rel="stylesheet" href="/js_94_TasteMaestro-s/assets/vendor-dccfdd0c.css">
+    <link rel="stylesheet" href="/js_94_TasteMaestro-s/assets/sprite-748f35fb.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container header__container">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="header__nav_list_item_logo">
+          <a class="nav_link_logo" href="./index.html" aria-label="Home">
+            <span class="header__nav_span_logo">
+              <svg class="logo_icon" width="16" height="16">
+                <use xlink:href="/js_94_TasteMaestro-s/assets/sprite-c044ac3a.svg#cabbage"></use>
+              </svg>
+            </span>
+            <svg class="logo_icon_text" width="16" height="16">
+              <use xlink:href="/js_94_TasteMaestro-s/assets/sprite-c044ac3a.svg#icon-Food-Boutique"></use>
+            </svg>
+            <span class="visually-hidden">Home</span>
+          </a>
+        </li>
+        <li class="header__list_item">
+          <a
+            class="header__nav_link_home nav_link"
+            href="./index.html"
+            aria-label="Home"
+            >Home</a
+          >
+        </li>
+
+        <li class="header__list_item">
+          <a
+            class="header__nav_link_cart"
+            href="./cart-page.html"
+            aria-label="link to the cart page"
+          >
+            <span class="header__nav_span_cart"
+              ><svg class="cart_icon" width="14" height="14">
+                <use
+                  class="cart_logo_svg"
+                  xlink:href="/js_94_TasteMaestro-s/assets/sprite-c044ac3a.svg#shopping-cart"
+                ></use>
+              </svg>
+            </span>
+            <span class="header__nav_cart_text header__js_span"></span>
+            <span class="visually-hidden">Cart</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+    <main>
+      <section class="cart-list">
+        <div class="container">
+          <!-- ! Empty cart count start -->
+
+<div class="cart-ware-count">
+  <span class="cart-svg-span">
+    <svg class="cart-count-icon" width="18" height="18" aria-label="cart">
+      <use
+        class="cart_logo_svg"
+        xlink:href="/js_94_TasteMaestro-s/assets/sprite-c044ac3a.svg#shopping-cart"
+      ></use>
+    </svg>
+  </span>
+  <span class="cart-count"></span>
+</div>
+
+<!-- ! Empty cart count end -->
+
+          <!-- ! Empty cart start -->
+
+<div class="cart-empty visually-hidden">
+  <div class="cart-empty-desc">
+    <img
+      src="/js_94_TasteMaestro-s/assets/shopingPic-x1-0d14f2e8.png"
+      srcset="/js_94_TasteMaestro-s/assets/shopingPic-x1-0d14f2e8.png 1x, /js_94_TasteMaestro-s/assets/shopingBasket-x2-48b7a7f8.png 2x"
+      alt="Shopping Basket"
+      aria-label="empty-basket"
+    />
+    <h2>Your basket is <span class="cart-empty-cgreen">empty...</span></h2>
+    <p class="cart-empty-text">
+      Go to the main page to select your favorite products and add them to the
+      cart.
+    </p>
+  </div>
+</div>
+
+<!-- ! Empty cart end -->
+
+          <div class="cart-list-total">
+            <div class="cart-filled-list">
+  <button class="cart-clear-btn" type="button" aria-label="clear-button">
+    Delete all
+    <span class="cart-clear-span">
+      <svg
+        class="cart-clear-icon"
+        width="24"
+        height="24"
+        aria-label="delete all"
+      >
+        <use
+          class="cart-clear-svg"
+          xlink:href="/js_94_TasteMaestro-s/assets/sprite-c044ac3a.svg#close-cross"
+        ></use>
+      </svg>
+    </span>
+  </button>
+
+  <ul class="cart-order-list"></ul>
+</div>
+
+            <div class="cart_total_order">
+  <p class="total-form-title">Your Order</p>
+
+  <div id="total-price">
+    <p class="cart_total_input">Total</p>
+    <p class="cart_total_sum">
+      Sum:<span class="total_price" id="cart_total">$0</span>
+    </p>
+  </div>
+
+  <div class="input-container-main">
+    <form id="checkoutForm">
+      <div class="cart_input_container">
+        <input
+          type="email"
+          name="cartsubmit"
+          class="cart-basket-input"
+          placeholder="Enter your email"
+        />
+        <span class="placeholder-text">Mail:</span>
+      </div>
+      <button
+        class="cart_checkout_btn"
+        type="submit"
+        aria-label="Checkout cart"
+      >
+        Checkout
+      </button>
+    </form>
+  </div>
+</div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" role="contentinfo" aria-labelledby="footerTitle">
+  <div class="container footer-container">
+    <div class="footer-main-part">
+      <div class="first-part-footer">
+        <a
+          class="link-logo-footer"
+          href="./index.html"
+          aria-label="Go to Home Page"
+        >
+          <span class="footer-span-logo">
+            <svg class="logo-icon-footer" aria-label="cabbage">
+              <use xlink:href="/js_94_TasteMaestro-s/assets/sprite-c044ac3a.svg#cabbage"></use>
+            </svg>
+          </span>
+          <svg class="footer-logo-icon-text" aria-label="logo-text">
+            <use xlink:href="/js_94_TasteMaestro-s/assets/sprite-c044ac3a.svg#icon-Food-Boutique"></use>
+          </svg>
+        </a>
+        <ul class="list-social-footer">
+          <li class="item-social-footer">
+            <a
+              href="https://www.facebook.com/goITclub/"
+              target="_blank"
+              aria-label="Visit our Facebook page"
+              ><svg class="item-icon-footer" aria-label="Facebook">
+                <use xlink:href="/js_94_TasteMaestro-s/assets/sprite-c044ac3a.svg#icon-Frame-52"></use></svg
+            ></a>
+          </li>
+          <li class="item-social-footer">
+            <a
+              href="https://www.instagram.com/goitclub/ "
+              target="_blank"
+              aria-label="Visit our Instagram page"
+              ><svg class="item-icon-footer" aria-label="Instagram">
+                <use xlink:href="/js_94_TasteMaestro-s/assets/sprite-c044ac3a.svg#icon-instagram"></use></svg
+            ></a>
+          </li>
+          <li class="item-social-footer">
+            <a
+              href="https://www.youtube.com/c/GoIT"
+              target="_blank"
+              aria-label="Visit our Youtube page"
+              ><svg class="item-icon-footer" aria-label="Youtube">
+                <use xlink:href="/js_94_TasteMaestro-s/assets/sprite-c044ac3a.svg#icon-Frame-60"></use></svg
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="second-part-footer">
+        <div>
+          <h2 class="footer-title">
+            Discover the Variety of Flavors and Quality
+          </h2>
+          <p class="text-descr-footer">
+            An online store where you will find fresh, natural and delicious
+            products for a healthy life and unforgettable gastronomic
+            adventures.
+          </p>
+        </div>
+        <div class="footer-form-cover">
+          <p class="text-footer">Subscribe and learn about new products!</p>
+          <form class="footer-form footer-form-js">
+            <label class="label-form-footer" for="subscribe">
+              <input
+                class="footer-subscribe-input"
+                type="email"
+                name="subscribe"
+                id="subscribe"
+                placeholder="Email"
+              />
+            </label>
+            <button class="footer-btn" type="submit" aria-label="Send">
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="footer-add-info">
+      <p class="text-footer-add">Food Boutique. All rights reserved.</p>
+      <div class="footer-more-info">
+        <a href="#" class="text-footer-add">Privacy Policy</a>
+        <span class="text-footer">/</span>
+        <a href="#" class="text-footer-add">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <div
+  class="backdrop js-backdrop visually-hidden"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Subscription Status"
+>
+  <!-- Subscription has been already done -->
+  <div
+    class="modal modal-first-case js-modal-first-case visually-hidden"
+    role="alertdialog"
+    aria-labelledby="modal-title-1"
+    aria-describedby="modal-text-1"
+  >
+    <div class="modal-title-position">
+      <h3 id="modal-title-1" class="modal-title">
+        This <span class="modal-title-span">email address</span> has already
+        been entered
+      </h3>
+    </div>
+    <p id="modal-text-1" class="modal-text" aria-label="polite">
+      You have already subscribed to our new products. Watch for offers at the
+      mailing address.
+    </p>
+    <button
+      class="modal-btn-close js-close"
+      aria-label="Close modal"
+      type="button"
+    >
+      <svg class="icon-close">
+        <use href="/js_94_TasteMaestro-s/assets/sprite-c044ac3a.svg#close-cross"></use>
+      </svg>
+    </button>
+  </div>
+  <!-- Subscription success -->
+  <div
+    class="modal modal-second-case js-modal-second-case visually-hidden"
+    role="alertdialog"
+    aria-labelledby="modal-title-2"
+    aria-describedby="modal-text-2"
+  >
+    <div class="modal-title-position">
+      <h3 id="modal-title-2" class="modal-title">
+        Thanks for subscribing for
+        <span class="modal-title-span">new</span> products
+      </h3>
+    </div>
+    <p id="modal-text-2" class="modal-text" aria-label="polite">
+      We promise you organic and high-quality products that will meet your
+      expectations. Please stay with us and we promise you many pleasant
+      surprises.
+    </p>
+    <button
+      class="modal-btn-close js-close"
+      type="button"
+      aria-label="Close modal"
+    >
+      <svg class="icon-close" aria-label="close icon">
+        <use href="/js_94_TasteMaestro-s/assets/sprite-c044ac3a.svg#close-cross"></use>
+      </svg>
+    </button>
+    <img
+      class="modal-subscription-img"
+      src="/js_94_TasteMaestro-s/assets/modalPic-x2-6f933a58.png"
+      alt="vegetables"
+    />
+  </div>
+  <!-- Order success -->
+  <div
+    class="modal modal-order visually-hidden js-checkout-modal"
+    role="alertdialog"
+    aria-labelledby="modal-title-3"
+    aria-describedby="modal-text-3"
+  >
+    <div class="modal-cart-img-position">
+      <img
+        class="modal-cart-img"
+        src="/js_94_TasteMaestro-s/assets/modal-cart-1x-06d052a5.png"
+        alt="tomatoes"
+        width="140"
+        height="140"
+      />
+      <img
+        class="modal-cart-shadow"
+        src="/js_94_TasteMaestro-s/assets/modal-cart-shadow-1x-aef7397a.png"
+        alt="shadow"
+      />
+    </div>
+    <h3 id="modal-title-3" class="modal-title-cart">Order success</h3>
+    <p id="modal-text-3" class="modal-cart-text" aria-label="polite">
+      Thank you for shopping at Food Boutique. Your order has been received and
+      is now being freshly prepared just for you! Get ready to indulge in
+      nourishing goodness, delivered right to your doorstep. We're thrilled to
+      be part of your journey to better health and happiness.
+    </p>
+    <button
+      class="modal-btn-close js-close"
+      type="button"
+      aria-label="Close modal"
+    >
+      <svg class="icon-close" aria-label="close icon">
+        <use href="/js_94_TasteMaestro-s/assets/sprite-c044ac3a.svg#close-cross"></use>
+      </svg>
+    </button>
+  </div>
+  <!-- Modal card -->
+  <div
+    class="modal modal-product-card js-modal-product-card visually-hidden"
+  ></div>
+</div>
+
+    <div class="loader-container visually-hidden">
+      <span class="loader"></span>
+    </div>
+    <button class="btn-up visually-hidden">
+      <svg class="arrow-up" width="44" height="44">
+        <use
+          class="arrow-up-icon"
+          xlink:href="/js_94_TasteMaestro-s/assets/sprite-c044ac3a.svg#icon-caret-small-left"
+        ></use>
+      </svg>
+    </button>
+    
+  </body>
+</html>
